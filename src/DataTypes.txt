@@ -1,0 +1,8 @@
+Primitive Data Types :
+1.) int
+2.) double
+3.) boolean
+4.) char
+
+Reference Data Types :
+1.) String
