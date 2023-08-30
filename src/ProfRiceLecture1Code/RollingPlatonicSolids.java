@@ -30,6 +30,6 @@ public class RollingPlatonicSolids {
 
         System.out.println(nl + "Sum = " + sum );
         System.out.println(nl + "Average = " + ((double) sum / (double) numDice));
-
+//
 
     }}
