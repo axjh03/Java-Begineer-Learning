@@ -1,0 +1,20 @@
+➜  ThrowCatchException ./a.out                 
+a
+b
+c
+d
+e
+➜  ThrowCatchException python3 RangeChecking.py
+a
+b
+c
+d
+e
+➜  ThrowCatchException java RangeChecking.java
+a
+b
+c
+d
+e
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+        at RangeChecking.main(RangeChecking.java:7)

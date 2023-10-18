@@ -1,0 +1,21 @@
+ // System.Err vs System.out in Java
+
+https://www.geeksforgeeks.org/difference-between-system-out-println-and-system-err-println-in-java/
+
+
+
+While Executing, Answer of both comes same.
+
+%%shell
+➜  conditional java SystemErr.java               
+Invalid length or width!
+➜  conditional java SystemOut.java 
+Invalid length or width!
+
+%%shell
+➜  conditional javac SystemErr.java SystemOut.java
+➜  conditional java SystemOut.java > resultSystemOut.txt
+➜  conditional java SystemErr.java > resultSystemErr.txt
+Invalid length or width!
+
+Err actually tells us the error.

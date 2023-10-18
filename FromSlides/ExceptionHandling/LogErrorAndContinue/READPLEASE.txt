@@ -1,0 +1,4 @@
+Logs are not visible by deafult
+
+We need to do this to see the logs
+java ClassName --log 
